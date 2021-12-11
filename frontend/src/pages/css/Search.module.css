@@ -1,0 +1,42 @@
+canvas{
+    border-radius: 5px;
+}
+
+.Card {
+    background: transparent;
+    color: #fff;
+    width: fit-content;
+    outline: none;
+}
+
+.Title {
+    text-overflow: ellipsis;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Subtitle {
+    color: #BCBCBC;
+    margin: 0;
+}
+
+.Input{
+    border-radius: 5px;
+    background-color: #BCBCBC;
+    border: 2px solid #807c7c;
+    padding-left: 10px;
+}
+
+.Input:focus{
+    background-color: #cecbcb;
+    outline: none;
+}
+
+.Button{
+    background-color: transparent;
+    border: none;
+    color: red;
+    text-decoration: underline;
+}
+

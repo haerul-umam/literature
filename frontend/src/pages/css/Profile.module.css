@@ -1,0 +1,52 @@
+.ProfileLayout {
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Title{
+    color: #fff;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.ImageProfile {
+    width: 11.5rem;
+    height: 12.563rem;
+}
+
+.ModalBody{
+    background-color: rgba(0, 0, 0, 0.89);
+    color: #fff;
+}
+
+.Input{
+    background-color: #BCBCBC;
+    border: 2px solid #807c7c;
+}
+
+.Input:focus{
+    background-color: #BCBCBC;
+}
+
+.WrapperCard{
+    position: relative;
+}
+
+.Status {
+    background-color: #BCBCBC;
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.1rem;
+}
+
+.Button {
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+}

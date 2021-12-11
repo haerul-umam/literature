@@ -1,0 +1,82 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+@font-face{
+  font-family: 'Avenir LT Std';
+  src: url("http://localhost:3000/assets/fonts/AvenirLTStd-Book.otf")
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* remove box-shadow from bs */
+.btn:focus{
+  box-shadow: none !important;
+}
+
+input:focus{
+  box-shadow: none !important;
+}
+
+#dropdown-basic::after {
+  display: none;
+}
+
+#dropdown-basic{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+
+.react-datepicker{
+  background-color: #BCBCBC;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.react-datepicker__navigation{
+  color: #fff;
+  background-color: #dc3545;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 7px;
+}
+
+.react-datepicker-popper{
+  z-index: 999;
+}
+
+.react-pdf__Page__annotations {
+  display: none;
+}

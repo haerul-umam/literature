@@ -1,0 +1,33 @@
+.Title{
+    color: #fff;
+    font-family: 'EB Garamond', serif;
+    font-size: 36px;
+    font-weight:500;
+    margin: 1rem 0;
+}
+
+.ButtonFile,
+.Input{
+    background-color: #BCBCBC;
+    border: 2px solid #807c7c;
+    margin-bottom: 1rem;
+}
+
+.Input:focus{
+    background-color: #BCBCBC;
+}
+
+.ButtonFile {
+    border-radius: 5px;
+    text-align: start;
+    width: 12rem;
+    position: relative;
+    height: 2.5rem;
+}
+
+.ImageButton {
+    position: absolute;
+    top: auto;
+    height: 25px;
+    right: 5px;
+}

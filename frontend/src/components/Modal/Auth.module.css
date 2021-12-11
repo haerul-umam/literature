@@ -1,0 +1,38 @@
+.ModalSize {
+    width: 20rem;
+}
+
+.ModalBody{
+    background-color: rgba(0, 0, 0, 0.89);
+    color: #fff;
+}
+
+.ButtonFile,
+.Input{
+    background-color: #BCBCBC;
+    border: 2px solid #807c7c;
+}
+
+.Input:focus{
+    background-color: #BCBCBC;
+}
+
+.Button{
+    background-color: transparent;
+    border: none;
+}
+
+.ButtonFile {
+    border-radius: 5px;
+    text-align: start;
+    width: 12rem;
+    position: relative;
+    height: 2.5rem;
+}
+
+.ImageButton {
+    position: absolute;
+    top: auto;
+    height: 25px;
+    right: 5px;
+}

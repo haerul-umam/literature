@@ -1,0 +1,18 @@
+.Card {
+    background: transparent;
+    color: #fff;
+    width: fit-content;
+    outline: none;
+}
+
+.Title {
+    text-overflow: ellipsis;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Subtitle {
+    color: #BCBCBC;
+    margin: 0;
+}
